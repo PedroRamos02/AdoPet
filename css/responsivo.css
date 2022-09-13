@@ -1,0 +1,142 @@
+@media screen and (min-width:  0){
+	.main_inicial p{		
+		width: 248px;	
+	}
+	.botoes_principais{
+		width: 180px;
+		height: 40px;
+	}
+	.logo2{
+		width: 142px;
+	}
+	.ilustracao{
+		width: 15.4em;
+		height: 19.5em;
+	}
+	.main_cadastro h1, p{
+		font-family: var(--fonte_secundaria);
+		color: var(--azul);
+		margin: 0.7em auto;
+		line-height: 1.3125em;
+		width: 312px;
+	}
+	.card{
+		width: 360px;
+	}
+	.main_pets h1{
+		width: 14.125em;
+	}
+	.main__formulario, .main__perfil{
+		width: 100%;
+	}
+	
+}
+
+@media screen and (min-width:  768px){
+	.cabec{
+		display: flex;
+		width: 304px;
+		padding-left: 6.5em;
+	}
+	.cabec{
+		background-image: url(../img/logo3.png);
+		background-repeat: no-repeat;
+		background-position: left top 2.9em;
+		margin-left: 1em;
+		
+	}
+	.main_inicial p{		
+		width: 70%;	
+	}
+	.botoes_principais{
+		width: 344px;
+		height: 44px;
+	}	
+	.ilustracao{
+		width: 21em;
+		height: 26.375em;
+	}
+	.logo2{
+		width: 251px;
+		margin-bottom: 1.5em;
+	}
+	.main_cadastro h1, p{
+		font-family: var(--fonte_secundaria);
+		color: var(--azul);
+		margin: 0.7em auto;
+		line-height: 1.3125em;
+		width: 525px;
+	}
+	.card{
+		width: 344px;
+	}
+	.main_pets h1{
+		width: 226px;
+	}
+	.main__formulario, .main__perfil{
+		width: 65%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width:  1200px){
+	.cabec{
+		display: flex;
+		width: 230px;
+		padding-left: 5.9em;
+	}
+	.cabec{
+		background-image: url(../img/logo3.png);
+		background-repeat: no-repeat;
+		background-position: left top 2.9em;
+		margin-left: 2em;		
+	}
+	.botoes_principais{
+		width: 362px;
+		height: 48px;
+	}	
+	.ilustracao{
+		width: 21.62em;
+		height: 26.9375em;
+	}
+	.logo2{
+		width: 259px;
+		margin-bottom: 3em;
+	}
+	.main_cadastro h1, p{
+		font-family: var(--fonte_secundaria);
+		color: var(--azul);
+		margin: 0.7em auto;
+		line-height: 1.3125em;
+		width: 552px;
+	}
+	.card{
+		width: 363px;
+	}
+	.pets, .login, .cadastro, .formulario, .perfil{
+		background-color: #ffffff;
+	    background-image: url("../img/forma 1.png"), 
+		url("../img/forma 2.png");
+	    background-repeat: no-repeat;
+	    background-position: left top,  right center;
+	}
+	.login, .cadastro{
+		background-color: #ffffff;
+	    background-image: url("../img/forma 1.png"), 
+		url("../img/forma 2.png"),
+		url("../img/Patas.svg");
+	    background-repeat: no-repeat;
+	    background-position: left top,  
+	    right center, right top;
+	}
+	.main_pets{
+		margin: auto 8%;
+	}
+	.main_pets h1{
+		width: 373px;
+	}
+	.main__formulario, .main__perfil{
+		width: 552px;
+		margin: 0 auto;
+	}
+}

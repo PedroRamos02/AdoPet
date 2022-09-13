@@ -1,0 +1,82 @@
+	:root{
+	--azul: #3772FF;
+	--verde: #36D6AD;
+	--laranja: #FC7071;
+	--branco: #F6F6F6;
+	--cinza: #F7F7F7;
+	--cinza2: #BCBCBC;
+	--cinza3: #737380;
+
+	--fonte_principal:'IBM Plex Sans', sans-serif; ;
+	--fonte_secundaria:'Poppins', sans-serif;
+}
+
+.pets{
+	background-color: #ffffff;
+	background-image: url("../img/forma 1.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	min-height:100vh ;
+}
+.main_pets{
+	text-align: center;
+	flex-grow: 1;
+	
+}
+.main_pets h1{
+	font-family: var(--fonte_secundaria);
+	color: var(--azul);
+	margin: 0.7em auto;
+	line-height: 1.3125em;
+}
+.lista__pets{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 3em;
+}
+.card{
+	background-color: var(--cinza);
+	height: 196px;
+	display: flex;
+	padding: 24px ;
+	font-family: var(--fonte_secundaria);
+	margin: 0.5em auto;
+}
+.card__corpo{
+	text-align: left;
+	margin-left: 25px;
+}
+.card__titulo{
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	color: var(--azul);
+	margin-bottom: 1em;
+}
+.card__descricao{
+	font-size: 14px;
+	color: var(--cinza3);
+	line-height: 20px;
+}
+.card__local{
+	font-size: 12px;
+	color: var(--cinza3);
+	line-height: 16px;
+	margin-top: 3em;
+}
+.card__contatar{
+	display: flex;
+	background-image: url("../img/msg.png");
+	background-repeat: no-repeat;
+	font-size: 10px;
+	color: var(--cinza3);
+	padding-left: 2.5em;
+	padding-bottom: 2em;
+	margin-top: 3em;
+}
+.card__contatar a{
+	text-decoration: none;
+}

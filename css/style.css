@@ -1,0 +1,109 @@
+	:root{
+	--azul: #3772FF;
+	--verde: #36D6AD;
+	--laranja: #FC7071;
+	--branco: #F6F6F6;
+	--cinza: #F7F7F7;
+	--cinza2: #BCBCBC;
+	--cinza3: #737380;
+
+	--fonte_principal:'IBM Plex Sans', sans-serif; ;
+	--fonte_secundaria:'Poppins', sans-serif;
+}
+
+.tela_inicial{
+	background-color: var(--azul);
+	background-image: url("../img/forma 1.png"), 
+		url("../img/forma 2.png"), 
+		url("../img/ilustração 1.png");
+	background-repeat: no-repeat;
+	background-position: left top,  right center, bottom 4.9em center;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	min-height:100vh ;
+} 
+.cadastro, .login{
+	background-color: #ffffff;
+	background-image: url("../img/forma 1.png"), 
+		url("../img/forma 2.2.png"), 
+		url("../img/Patas.svg");
+	background-repeat: no-repeat;
+	background-position: left top, left bottom 6em, right top;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	min-height:100vh ;
+}
+header{
+	height: 10em;
+}
+.pets header, .formulario header, .perfil header{
+	display: flex;
+	justify-content: space-between;
+}
+.imagem__perfil{
+	margin: 2.45em 3em;
+}
+.imagem_cabecalho{
+	margin: 3em 1em 0 3em;
+}
+.main_inicial{
+	text-align: center;
+	flex-grow: 1;
+	width: 60%;
+	margin: 0 auto;
+}
+.cadastrar, .entrar{
+	background-color: var(--laranja);
+	box-sizing: border-box;
+	border-radius: 6px;
+	text-decoration: none;
+	font-family: var(--fonte_secundaria);
+	font-size: 16px;
+	color: #ffffff;
+
+	display: flex;
+	margin: 1em auto;
+	width: 148px;
+	height: 40px;
+	align-items: center;
+	justify-content:center ;
+}
+.main_inicial h1{
+	font-family: var(--fonte_principal);
+	margin: 1.5em 0 1.5em;
+	font-size: 1.7em;
+	color: #ffffff;
+}
+.main_inicial p{
+	
+	font-family: var(--fonte_secundaria);
+	font-size: 1em;
+	color: #ffffff;
+	line-height: 1.5em;	
+}
+.botoes_principais{
+	background-color: var(--laranja);
+	box-sizing: border-box;
+	border-radius: 6px;
+	text-decoration: none;
+	font-family: var(--fonte_secundaria);
+	font-size: 16px;
+	color: #ffffff;
+
+	display: flex;
+	margin: 1em auto;
+	align-items: center;
+	justify-content:center ;
+}
+footer{
+	background-color: var(--verde);
+	height: 100%;
+}
+h3{
+	font-family: var(--fonte_secundaria);
+	color: #ffffff;
+	text-align: center;
+	padding: 2.5em ;
+}

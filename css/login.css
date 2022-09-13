@@ -1,0 +1,44 @@
+.main_login{
+	text-align: center;
+	flex-grow: 1;
+	width: 21.5em;
+	margin: 0 auto;
+}
+.main_login h1{
+	font-family: var(--fonte_secundaria);
+	color: var(--azul);
+	margin: 3.3em;
+	line-height: 1.3125emem;
+	text-align: center;
+	width: 70%;
+}
+.main_login form{
+	font-family: var(--fonte_secundaria);
+	color: var(--cinza3);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.input_login{
+	background-color: var(--branco);
+	display: flex;
+	margin: 0.3em auto 1.8em;
+	text-align: center;
+	border-radius: 6px;
+	border-color: var(--branco);
+	mix-blend-mode: normal;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+	height: 40px;
+	width: 312px;
+
+	font-family: var(--fonte_secundaria);
+	color: var(--cinza2);
+	font-size: 12px;
+}
+.esqueci_minha_senha{
+	font-family: var(--fonte_secundaria);
+	font-size: 12px;
+	color: var(--laranja);
+	margin-bottom: 1.7em;
+}
